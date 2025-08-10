@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true, // Essential for generating .d.ts files
+    "emitDeclarationOnly": true, // Ensures only declaration files are emitted
+    "outDir": "./dist", // Output directory for generated .d.ts files
+    "rootDir": "./src", // Source directory containing your types
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/*.d.ts"] // Include only your declaration files
+}
