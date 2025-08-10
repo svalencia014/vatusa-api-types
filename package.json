@@ -1,6 +1,6 @@
 {
   "name": "vatusa-api-types",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Types for the VATUSA API",
   "repository": {
     "type": "git",
