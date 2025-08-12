@@ -1,14 +1,21 @@
 {
   "compilerOptions": {
-    "declaration": true, // Essential for generating .d.ts files
-    "emitDeclarationOnly": true, // Ensures only declaration files are emitted
-    "outDir": "./dist", // Output directory for generated .d.ts files
-    "rootDir": "./src", // Source directory containing your types
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "module": "esnext",
+    "target": "esnext",
     "moduleResolution": "node",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/*.d.ts"] // Include only your declaration files
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
